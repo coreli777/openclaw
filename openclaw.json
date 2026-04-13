@@ -1,8 +1,11 @@
 {
   "channels": {
     "telegram": {
-      "allowFrom": ["7037686908"],
-      "dmPolicy": "open"
+      "allowFrom": ["*"],
+      "dmPolicy": "open",
+      "groups": {
+        "*": true
+      }
     }
   },
   "agent": {
