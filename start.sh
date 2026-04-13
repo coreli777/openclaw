@@ -1,3 +1,5 @@
 #!/bin/bash
-openclaw pairing approve telegram 4FYBYJZ8 || true
-node openclaw.mjs gateway --allow-unconfigured
+node openclaw.mjs gateway --allow-unconfigured &
+sleep 15
+openclaw pairing approve telegram P7RNYJTK || true
+wait
